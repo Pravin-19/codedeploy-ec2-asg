@@ -1,13 +1,8 @@
 #!/bin/bash
 
-# Update package lists
-apt-get update -y
+# Ensure Apache is installed and running
+sudo apt-get update
+sudo apt-get install -y apache2
 
-# Install Node.js and npm
-apt-get install -y nodejs npm
-
-# Navigate to the application directory
-cd /home/ubuntu/codedeploy-ec2-asg
-
-# Install the application's dependencies
-npm install
+# Start Apache if not already running
+sudo systemctl start apache2
