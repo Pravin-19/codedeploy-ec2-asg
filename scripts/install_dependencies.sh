@@ -7,7 +7,7 @@ apt-get update -y
 apt-get install -y nodejs npm
 
 # Navigate to the application directory
-cd /home/ubuntu/nodejs-app
+cd /home/ubuntu/codedeploy-ec2-asg
 
 # Install the application's dependencies
 npm install
