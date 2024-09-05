@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     <p><strong>Twitter:</strong> <a href="https://x.com/pravinv_" target="_blank">x.com/pravinv_</a></p>
     <p><strong>Resume:</strong> <a href="https://drive.google.com/file/d/1Rw8H4P9tNWKiOGN9sOkoQ5ffkbOzwLj9/view?usp=sharing" target="_blank">Resume-GoogleDrive</a></p>
     <p><strong>Code:</strong> <a href="https://github.com/Pravin-19/codedeploy-ec2-asg.git" target="_blank">Github Code</a></p>
-    <p><strong>Youtube:</strong><a>Pravin Velusamy</a></p>
+
   `);
 });
 
